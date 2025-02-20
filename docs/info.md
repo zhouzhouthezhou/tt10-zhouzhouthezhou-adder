@@ -9,12 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Adds 2 4bit numbers together
+Verilog then goes into an always block where it maps the sum to a number on the 8 segment
+If the sum is a number the 8 segment cannot display, it will show a .
+Overflow is not handled
 
 ## How to test
 
-Explain how to use your project
+Use the dip switches to set the input, will add the upper 4 bits to the lower 4 bits
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
